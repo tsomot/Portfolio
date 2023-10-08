@@ -1,0 +1,71 @@
+.gallery-buttons{
+  position: relative;
+  background: #444;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem; /* Adjust padding for a rectangular shape */
+  transition: 0.2s;
+  background-image: url('images/thumbs/01.jpg');
+}
+/* Add the ::before pseudo-element for the image */
+.gallery-buttons::before {
+  content: "";
+  display: inline-block;
+  width: 20px; /* Adjust the width of the image */
+  height: 20px; /* Adjust the height of the image */
+  background-image: url('images/logo.png'); /* Add your image URL here */
+  background-size: cover;
+  margin-right: 10px; /* Adjust the spacing between the image and text */
+}
+
+.gallery-buttons:hover {
+  letter-spacing: 0.2rem;
+  padding: 0.6rem 1.6rem; /* Adjust padding for a rectangular shape */
+  background: var(--clr);
+  color: var(--clr);
+  /* box-shadow: 0 0 35px var(--clr); */
+  animation: box 3s infinite;
+}
+
+buttons.gallery-buttons {
+  margin: auto;
+  position: relative;
+  display: block;
+  font-weight: 100;
+  background: #333333;
+  border: 1px solid #FFC947;
+  text-decoration: none;
+  color: #FFC947;
+  padding: 0.5rem 1.5rem;
+  transition: 0.225s ease all;
+  overflow: hidden;
+  will-change: transform;
+  box-shadow: 7px 7px 0px #FFC947;
+  /* Text formatting */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  /* Center the text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Remove border radius */
+  border-radius: 0;
+}
+
+buttons.gallery-buttons:hover,
+buttons.gallery-buttons:focus {
+  cursor: pointer;
+  transform: translate(-4px, -4px);
+  box-shadow: 7px 7px 0px #FFC947;
+  color: white;
+}
+
+buttons.gallery-buttons.clicked {
+  cursor: pointer;
+  transform: translate(3px, 3px) !important;
+  box-shadow: 7px 7px 0px #FFC947 !important;
+  border: 1px solid rgba(61, 183, 78, 0.5);
+}
