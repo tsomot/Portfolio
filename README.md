@@ -9,5 +9,5 @@ Welcome to my personal portfolio website, handcrafted from scratch using HTML, C
 - **Custom Styling:** The website's unique visual style reflects my personal branding.
 - **Interactivity:** JavaScript adds interactivity and smooth animations to engage visitors.
 
-Visit [TenzinTsomo.com](https://TenzinTsomo.com) to explore my work, and connect with me on [LinkedIn](https://www.linkedin.com/in/tenzintsomo) for collaboration opportunities.
+Visit [TenzinTsomo.com](https://tenzintsomo.online) to explore my work, and connect with me on [LinkedIn](https://www.linkedin.com/in/tenzin-tsomo-0531031a2/) for collaboration opportunities.
 
